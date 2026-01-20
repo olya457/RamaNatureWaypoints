@@ -55,17 +55,17 @@ export default function AboutScreen({ navigation }: Props) {
   const onShare = useCallback(async () => {
     try {
       await Share.share({
-        message: 'Rama Nature Waypoints — a calm guide to nature places.',
+        message: 'Roma: Nature Waypoints — a calm guide to nature places.',
       });
     } catch {}
   }, []);
 
   const paragraphs = useMemo(
     () => [
-      'Rama Nature Waypoints is an app for those who love to explore nature at their own pace. It brings together forests, mountains, reserves and wild corners of the world.',
+      'Roma: Nature Waypoints is an app for those who love to explore nature at their own pace. It brings together forests, mountains, reserves and wild corners of the world.',
       'The app helps you find interesting places, save your favorite locations and return to them when you need silence, space or inspiration.',
       'Rama is your silent companion on this journey. He does not rush or lead by the rules — he is just there while you build your own map of nature trails.',
-      'Rama Nature Waypoints is designed for calm exploration, planning and pleasant discoveries — without unnecessary noise.',
+      'Roma: Nature Waypoints is designed for calm exploration, planning and pleasant discoveries — without unnecessary noise.',
     ],
     [],
   );

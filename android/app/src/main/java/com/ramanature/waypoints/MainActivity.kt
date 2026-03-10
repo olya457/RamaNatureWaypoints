@@ -1,4 +1,4 @@
-package com.rama.nature.waypoints
+package com.ramanature.waypoints
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

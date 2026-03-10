@@ -1,4 +1,4 @@
-package com.rama.nature.waypoints
+package com.ramanature.waypoints
 
 import android.app.Application
 import com.facebook.react.PackageList
